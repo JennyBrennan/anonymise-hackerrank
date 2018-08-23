@@ -1,0 +1,7 @@
+.report-header h3 {
+	display: none;
+}
+#report-tab-content-container > div > div > div.row.mjB > div.span-xs-8.span-md-10.no-padding._ar_hide_ > table > tbody > tr:nth-child(1) > td:nth-child(2),
+#report-tab-content-container > div > div > div.row.mjB > div.span-xs-8.span-md-10.no-padding._ar_hide_ > table > tbody > tr:nth-child(2) > td:nth-child(2) {
+	display: none;
+}

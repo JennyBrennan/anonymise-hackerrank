@@ -1,0 +1,27 @@
+{
+  "name": "Anonymise HackerRank",
+  "short_name": "Anonymise HackerRank",
+  "version": "0.0.0.1",
+  "manifest_version": 2,
+  "description": "An extension to anonymise HackerRank coding exercise pages to reduce bias in evaluation.",
+  "web_accessible_resources": ["anonymise.css"],
+  "content_scripts": [{
+    "matches": ["*://*.hackerrank.com/*"],
+    "css": ["anonymise.css"]
+  }],
+  "icons": {
+    "48": "icon48.png"
+  },
+  "browser_action": {
+    "default_icon": "icon48.png",
+    "default_title": "Anonymising HackerRank"
+  },
+  "permissions": [
+    "declarativeContent",
+    "tabs",
+    "background",
+    "storage",
+    "http://hackerrank.com/*",
+    "https://hackerrank.com/*"
+  ]
+}
